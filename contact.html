@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            background-image: url(laptop.jpg);
+            font-family: 'Poppins', sans-serif;
+            color: rgb(12, 12, 12);
+        }
+        h1{
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        label {
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        form{
+            width: 50%;
+            margin: 0 330px;
+        }
+        input,textarea{
+            background-color: black;
+            color: white;
+        }
+        input{
+            padding: 10px 0;
+        }
+        input[type="submit"]{
+            padding: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <form >
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        <label for="email">Email</label><br>
+
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.container{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: flex;
+}
+
+.arrow{
+    /* box-shadow: 1px 1px 5px hsl(0, 26%, 96%);
+    background-color: #f8f3f3; */
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    filter: invert(100%);
+    top: 5%;
+    left: 60%;
+}
+
+.arrows{
+    height: 100px;
+    width: 100px;
+}
+
+.laptop{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    height: 50%;
+    width: 50%;
+    /* filter: invert(100%); */
+}
+
+.laptop-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* filter: invert(100%); */
+}
+
+.btn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+   font-weight: bold;
+    background-color: #b395f4;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px hsl(0, 26%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    left: 70%;
+    bottom: 50%;
+    top: 50%;
+}
